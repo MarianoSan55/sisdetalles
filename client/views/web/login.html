@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>SISDASEDU</title>
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/css/web.css">
+  </head>
+  <body>
+
+    <!-- Menu principal -->
+    <nav class="navbar navbar-expand-lg navbar-light c-header"></nav>
+    <!-- Fin menu PRincipal -->
+
+    <!-- Login -->
+
+    <div class="contaniner border border-dark m-5 rounded">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-5 mt-5 c-login">
+        <div class="container">
+          <h1 class="display-4 text-center title-form">Iniciar Sesion</h1>
+          <form>
+            <div class="form-group row">
+              <label for="staticEmail" class="col-sm-3 col-md-3 col-lg-3 col-form-label">Correo: </label>
+              <div class="col-sm-9 col-md-9 col-lg-9">
+                <input type="text" class="form-control" id="inputCorreo" placeholder="ejemplo@gmail.com">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-3 col-md-3 col-lg-3 col-form-label">Contraseña: </label>
+              <div class="col-sm-9 col-md-9 col-lg-9">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+
+
+            <div class="form-group row">
+              <div class="col-sm-12 justify-content-center text-center">
+                <span class="text-center"><a href="#">Olvidaste tu Contraseña</a></span>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-12 d-flex justify-content-center">
+                <button type="button" class="btn btn-success bt-menu text-center">Iniciar</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <!-- Fin Login -->
+
+
+
+
+    <!-- footer -->
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4"></footer>
+  <!-- Footer -->
+
+    <!-- Fin footer -->
+
+      <script src="../../public/js/jquery.js"></script>
+      <script src="../../public/js/jquery-ui.js"></script>
+
+      <script src="../../public/js/vendor/bootstrap.min.js"></script>
+      <script src="../../public/systemjs/ventana.js"></script>
+      <script src="../../public/systemjs/web/index.js"></script>
+
+      <!-- Incluir Menu -->
+      <script>
+        $(document).ready(function () {
+          $('.navbar').load('menu.html');
+        });
+      </script>
+
+      <!-- Incluir Pie -->
+      <script>
+        $(document).ready(function () {
+          $('.page-footer').load('footer.html');
+        });
+      </script>
+
+  </body>
+</html>

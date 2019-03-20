@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>SISDASEDU</title>
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/css/web.css">
+  </head>
+  <body>
+
+    <!-- Menu principal -->
+    <nav class="navbar navbar-expand-lg navbar-light c-header"></nav>
+    <!-- Fin menu PRincipal -->
+
+    <!-- Carrito -->
+
+    <!-- Fin Carrito -->
+    <div class="container col-12">
+        <div class="row col-12 justify-content-center mt-3 mb-3 text-center ml-0 mr-0">
+            <h1 class="text-center title-form">Carrito de Compras</h1>
+        </div>
+        <div class="row col-lg-12 ml-0 mr-0">
+            <div class="col-lg-9 col-md-6 col-sm-12">
+                <ul class="col-12">
+                    <li class="item-producto mb-3 row">
+                        <div class="overflow-hidden col-lg-2 col-md-4 col-sm-6 pr-0 pl-0">
+                            <img class="card-img-top" src="../../public/img/imagenes/civil.jpeg" alt="">
+                        </div> 
+                        <div class="col-lg-7">
+                          <label for="" class="car-nombre">AutoCAD Avanzado</label>
+                          <p class="car-catedratico">Ing. Ivan Grados Ramirez</p>
+                          <p class="car-tipo">PONENCIA</p>
+                          <button type="button" class="bg-danger border-0 btn-car-eliminar pl-4 pr-4 mt-4 rounded">Eliminar</button>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="precio m-3 pt-2 pb-2">
+                            S/50.00
+                          </div>
+                        </div>
+                    </li>
+                    <li class="item-producto mb-3 row">
+                        <div class="overflow-hidden col-lg-2 col-md-4 col-sm-6 pr-0 pl-0">
+                            <img class="card-img-top" src="../../public/img/imagenes/civil.jpeg" alt="">
+                        </div> 
+                        <div class="col-lg-7">
+                          <label for="" class="car-nombre">AutoCAD Avanzado</label>
+                          <p class="car-catedratico">Ing. Ivan Grados Ramirez</p>
+                          <p class="car-tipo">PONENCIA</p>
+                          <button type="button" class="bg-danger border-0 btn-car-eliminar pl-4 pr-4 mt-4 rounded">Eliminar</button>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="precio m-3 pt-2 pb-2">
+                            S/100.00
+                          </div>
+                        </div> 
+                    </li>                    
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center">
+                <div class="col-12 c-form-pago">
+                    <div class="c-cant-precio">
+                        <label for="" class="p-2">Total a Pagar:</label>
+                        <h1 class="text-center pt-1 pb-4 cant-precio">S/. 150.00</h1>
+                    </div>
+                    <div class="forma-pago">
+                      <div class="c-item-pago justify-content-center pt-2 pb-2">
+                        <div class="col-lg-4 justify-content-center">
+                          <input class="pt-2 pb-2" type="radio" name="pago" id="" />
+                        </div>                    
+                        <div class="col-lg-8">
+                          <img src="../../public/img/icon_visa.png" alt="">
+                        </div>
+                      </div>
+                      <div class="c-item-pago justify-content-center pt-2 pb-2">
+                        <div class="col-lg-4 justify-content-center">
+                          <input class="pt-2 pb-2" type="radio" name="pago" id="" />
+                        </div>
+                        <div class="col-lg-8">
+                          <img src="../../public/img/icon_culqui.png" alt="">
+                        </div>
+                      </div>
+                      <div class="c-item-pago justify-content-center pt-2 pb-2">
+                        <div class="col-lg-4 justify-content-center">
+                          <input class="pt-2 pb-2" type="radio" name="pago" id="" />
+                        </div>
+                        <div class="col-lg-8">
+                          <img src="../../public/img/icon_paypal.png" alt="">
+                        </div>
+                      </div>
+                    </div>                
+                </div>
+                <div class="c-btn-pagar col-12 justify-content-center pt-3 pb-3 text-center">
+                    <button class="btn btn-success" type="button">Pagar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4"></footer>
+  <!-- Footer -->
+
+    <!-- Fin footer -->
+
+      <script src="../../public/js/jquery.js"></script>
+      <script src="../../public/js/jquery-ui.js"></script>
+
+      <script src="../../public/js/vendor/bootstrap.min.js"></script>
+      <script src="../../public/systemjs/ventana.js"></script>
+      <script src="../../public/systemjs/web/index.js"></script>
+
+      <!-- Incluir Menu -->
+      <script>
+        $(document).ready(function () {
+          $('.navbar').load('menu.html');
+        });
+      </script>
+
+      <!-- Incluir Pie -->
+      <script>
+        $(document).ready(function () {
+          $('.page-footer').load('footer.html');
+        });
+      </script>
+
+  </body>
+</html>
