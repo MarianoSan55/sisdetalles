@@ -10,27 +10,45 @@ body{
   border: 2px solid #781924 !important;
   border-radius: 5px;
   margin: 5px;
-  min-width: 120px;
-  min-height: 115px;
   background: #b3b3b3;
   padding-left: 0px !important;
   padding-right: 0px !important;
   cursor: pointer;
 }
+.item-menu1:hover{
+  background: #781924;
+}
 .item-menu1 div{
-  width: 100%;
-  min-height: 110px;
+  min-height: 80px;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 .item-menu1 div img{
-  width: 100%;
+  width: 70%;
   height: auto;
   padding: 5px;
 }
 .item-menu1 p{
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+.m-bienvenida{
+  color: gray;
+  text-align: center;
+  margin-top: 300px;
+}
+.c-general-1{
+  width: calc(100% - 40px);
+  height: 200px;
+  background: #b3b3b3;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.calendario{
+  background: red;
 }
 /*RESPONSIVE*/
 
