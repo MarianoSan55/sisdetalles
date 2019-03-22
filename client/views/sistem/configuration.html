@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>SisDetalles</title>
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/css/web.css">
+    <link rel="stylesheet" href="../../public/css/colores.css">
+    <link rel="stylesheet" href="../../public/css/configuration.css">
+
+  </head>
+  <body>
+
+    <!-- Menu principal -->
+       <nav class="navbar-expand-lg navbar-light fixed-top"></nav>
+    <!-- Fin menu PRincipal -->
+
+    <!--Cuerpo de Sistema-->
+    <nav class="navbar navbar-expand-lg navbar-light"></nav>
+
+    <div class="row col-plomo cont-general-c">
+        <div class="col-12 mn-conf">
+          <div class="row">
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Oficinas
+            </button>
+
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Salones
+            </button>
+
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Sub Almacenes
+            </button>
+
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Almacenes
+            </button>
+
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Proveedores
+            </button>
+
+            <button type="button" class="col-6 col-sm-3 col-md-2 btn btn-success col-verd rounded-0">
+              <img class="img-btn" src="../../public/img/ico_almacen.png">
+              Paquetes
+            </button>
+          </div>
+
+        </div>
+
+        <div class="col-12 mt-3">
+          <div class="row">
+
+            <div class="col-12 col-sm-4">
+              <h5> <strong>LISTA DE OFICINAS</strong> </h5>
+              <div class="row">
+                <div class="col-11 bg-light border-r">
+
+                  <table class="table con-table">
+                    <thead>
+                      <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Estado</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td>102</td>
+                          <td>Manuel Seoane - Cajamarca</td>
+                          <td>Activo</td>
+                      </tr>
+                      <tr>
+                        <td>103</td>
+                        <td>Campiña - Cajamarca</td>
+                        <td>Activo</td>
+                      </tr>
+                      <tr>
+                        <td>104</td>
+                        <td>Campiña</td>
+                        <td>Activo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-8">
+              <h5> <strong>DATOS DE OFICINAS</strong> </h5>
+              <div class="row">
+                <div class="col-12 border-r col-amarillo">
+
+                  <div class="container form-cont">
+                    <form>
+                      <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-4 col-form-label text-right">Nombre Oficina: </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control form-control-sm"  placeholder="Nombre Oficina">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Direaccion Oficina:</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control form-control-sm"  placeholder="Direaccion Oficina">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Teléfono Oficina:</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control form-control-sm"  placeholder="Telefono Oficina">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Correo Oficina:</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control form-control-sm"  placeholder="Correo Oficina">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Responsable:</label>
+                        <div class="col-sm-8">
+                          <select class="custom-select my-1 mr-sm-2 custom-select-sm" id="inlineFormCustomSelectPref">
+                            <option selected>Juan Perez</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Sucursal:</label>
+                        <div class="col-sm-8">
+                          <select class="custom-select my-1 mr-sm-2 custom-select-sm" id="inlineFormCustomSelectPref">
+                            <option selected>Cajamarca</option>
+                            <option value="1">One</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-4 col-form-label text-right">Estado:</label>
+                        <div class="col-sm-8">
+                          <select class="custom-select my-1 mr-sm-2 custom-select-sm" id="inlineFormCustomSelectPref">
+                            <option selected>Activo</option>
+                            <option value="1">Inactivo</option>
+                          </select>
+                        </div>
+                      </div>
+
+
+                      <div class="form-group row">
+                        <div class="col-sm-12 d-flex justify-content-center">
+                          <div class="row ml-2 text-center justify-content-center">
+                            <img src="../../public/img/ic-btn/guardar.png">
+                            <span class="col-12" >Guardar</span>
+                          </div>
+
+                          <div class="row ml-2 text-center justify-content-center">
+                            <img src="../../public/img/ic-btn/nuevo.png">
+                            <span class="col-12" >Nuevo</span>
+                          </div>
+
+                          <div class="row ml-2 text-center justify-content-center">
+                            <img src="../../public/img/ic-btn/salir.png">
+                            <span class="col-12">Salir</span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+    </div>
+    <!--Fin Cuerpo de Sistema-->
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+</footer>
+
+ <!-- Fin footer -->
+
+
+      <script src="../../public/js/jquery.js"></script>
+      <script src="../../public/js/jquery-ui.js"></script>
+
+      <script src="../../public/js/vendor/bootstrap.min.js"></script>
+      <script src="../../public/systemjs/ventana.js"></script>
+      <script src="../../public/systemjs/web/index.js"></script>
+
+      <!-- Incluir Menu -->
+      <script>
+        $(document).ready(function () {
+          $('.navbar').load('menu.html');
+        });
+      </script>
+
+      <!-- Incluir Pie -->
+      <script>
+        $(document).ready(function () {
+          $('.page-footer').load('footer.html');
+        });
+      </script>
+
+      <!-- Incluir Buscador - Menu -->
+      <script>
+        $(document).ready(function () {
+          $('.search').load('search.html');
+        });
+      </script>
+
+  </body>
+</html>
