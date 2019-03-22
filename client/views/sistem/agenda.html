@@ -6,6 +6,7 @@
     <title>SisDetalles</title>
     <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../public/css/web.css">
+    <link rel="stylesheet" href="../../public/css/agenda.css">
   </head>
   <body>
 
@@ -16,7 +17,7 @@
     <!--Cuerpo de Sistema-->
     <nav class="navbar navbar-expand-lg navbar-light"></nav>
     <div class="c-general">
-      <h1 class="m-bienvenida">Bienvenidos selecciona una opcion del menú</h1>
+      <h1 class="m-bienvenida">Bienvenidos a agenda</h1>
     </div>
     <!--Fin Cuerpo de Sistema-->
 
@@ -41,7 +42,12 @@
           $('.navbar').load('menu.html');
         });
       </script>
-
+      <!-- Incluir cuerpo -->
+      <script>
+        $(document).ready(function () {
+          $('.c-general').load('agenda/bodyAgenda.html');
+        });
+      </script>
       <!-- Incluir Pie -->
       <script>
         $(document).ready(function () {
