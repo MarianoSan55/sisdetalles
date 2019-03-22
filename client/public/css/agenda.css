@@ -1,0 +1,21 @@
+.f-blanco{
+    background: #fff;
+    border-radius: 10px;
+    overflow: auto;
+    max-height: 400px;
+  }
+.c-general-agenda{
+    width: calc(100% - 40px);
+    background: #b3b3b3;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+.m-despleg{
+    border-bottom:solid 2px #000;
+    cursor: pointer;
+}
+.ico-flecha{
+    background: url("../img/ico-abajo.png") no-repeat center center;
+    background-size: 40%;
+}
