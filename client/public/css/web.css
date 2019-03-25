@@ -41,6 +41,7 @@ body{
 }
 .c-general-1{
   width: calc(100% - 40px);
+  height: auto;
   background: #b3b3b3;
   margin: 0px auto;
   border-radius: 10px;
@@ -53,7 +54,6 @@ body{
   border-radius: 10px;
 }
 .c-form{
-  height: 400px;
   background: #e7d141;
 }
 .c-general{
@@ -72,8 +72,12 @@ body{
 .active{
   background: #e7d141 !important;
 }
-.formulario{
+.c-formulario{
   border: none !important;
+}
+.formulario{
+  border: 2px solid #e6e6e6;
+  border-radius: 15px;
 }
 
 /*RESPONSIVE*/
