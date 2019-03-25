@@ -1,0 +1,39 @@
+/* Menu Configuration */
+.img-btn{
+  width: 30px;
+  margin: 0px 20px 5px 5px;
+}
+
+.mn-conf button:hover{
+  background: #000;
+}
+
+.cont-general-c{
+  width: calc(100% - 40px);
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.border-r{
+  border-radius: 10px;
+}
+
+.form-cont{
+  border: 3px solid #e6e6e6;
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Tablas */
+
+.con-table tbody tr:hover{
+  background: #38bbe3;
+}
+
+.con-table tbody td{
+  padding: 0px;
+  margin: 0px;
+}
