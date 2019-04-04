@@ -76,10 +76,71 @@ body{
   border: none !important;
 }
 .formulario{
+  width: 100%;
   border: 2px solid #e6e6e6;
   border-radius: 15px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-top: 20px;
 }
+.c-tab-panel{
+  padding: 10px;
+}
+.tabla-paquete th{
+  border: 1px transparent !important;
+}
+.tabla-paquete td{
+  border: 1px solid #e7d141 !important;
+  background: #e78641;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tabla-paquete td:hover{
+  background: #d82e41;
+}
+.c-detalle-paquete{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 15px;
+}
+.c-estado-pac{
+  background: #ff0000;
+  border-radius: 5px;
 
+}
+.estado-pac{
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+.estado-pac img{
+  width: 100%;
+  height: auto;
+}
+.c-btn-estado-pac{
+  width: 30px;
+  overflow: hidden;
+}
+.c-btn-estado-pac img{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.cont-estado-pac{
+  height: 30px;
+  color: #fff;
+}
+.c-modal{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, .5);
+}
 /*RESPONSIVE*/
 
 /* Tablets en horizonal y escritorios normales*/
